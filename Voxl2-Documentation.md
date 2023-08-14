@@ -13,7 +13,7 @@ The hardware for VOXL2 has several components such as the tracking camera, the s
 
 The voxl2 has several add-ons that we may need to purchase, and they are the following:
 
-* Cooling [Fan](https://www.google.com/url?q=htFrSky R-XSR receivertps://www.modalai.com/products/voxl-cooling-fan&sa=D&source=editors&ust=1691917601980257&usg=AOvVaw0hOY-yRoiztNGqEsESiYbP).
+* Cooling [Fan](https://www.google.com/url?q=https://www.modalai.com/products/voxl-cooling-fan&sa=D&source=editors&ust=1691917601980257&usg=AOvVaw0hOY-yRoiztNGqEsESiYbP).
 * [GPS](https://www.google.com/url?q=https://www.modalai.com/products/voxl-2-gps-mag-rc-assembly?variant%3D40673762836531&sa=D&source=editors&ust=1691917601980698&usg=AOvVaw3tfBu6sQQo0tFT_pKoe6jU).
 * I/O [board](https://www.google.com/url?q=https://www.modalai.com/products/voxl2-io?variant%3D40610514206771&sa=D&source=editors&ust=1691917601981044&usg=AOvVaw1DFfFlaaBg56q5IEse0KOW).
 * [ESC](https://www.google.com/url?q=https://www.modalai.com/products/voxl-esc?variant%3D44353436614960&sa=D&source=editors&ust=1691917601981331&usg=AOvVaw33TVmyNW2I-INwB6PZzbw5) 4-in-1.
