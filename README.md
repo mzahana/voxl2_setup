@@ -19,7 +19,7 @@ The voxl2 has several add-ons that we may need to purchase, and they are the fol
 * [ESC](https://www.google.com/url?q=https://www.modalai.com/products/voxl-esc?variant%3D44353436614960&sa=D&source=editors&ust=1691917601981331&usg=AOvVaw33TVmyNW2I-INwB6PZzbw5) 4-in-1.
 * [Wifi Dongle](https://www.google.com/url?q=https://www.modalai.com/products/voxl-2-wifi-add-on-kit&sa=D&source=editors&ust=1691917601981590&usg=AOvVaw0KTldl8ukAP0LcHyFUDU-h).
 * I/O board [connector](https://www.google.com/url?q=https://www.modalai.com/products/mcbl-00061&sa=D&source=editors&ust=1691917601981834&usg=AOvVaw2fToD1ajGZqOtmRHcQSVT3).
-* FRsky receiver - X8R.
+* FrSky R-XSR receiver.
 
 All the above components are compatible with VOXL2.
 
