@@ -74,7 +74,7 @@ Figure (2) - FrSky R-XSR receiver
 
 Figure (3) - the pinout for the SBUS port in the I/O board and the connection of the receiver to the I/O board
 
-        From the figure 2 above, we can see that we connect the SBUS Input in the I/O board to the SBUS Output in the FrSky receiver.
+        From Figure 2 above, we can see that we connect the SBUS Input in the I/O board to the SBUS Output in the FrSky receiver.
 
 To connect the RC transmitter, we need to make sure that the receiver and the transmitter are in the same channel, either ACCST or ACCESS.
 
@@ -266,7 +266,7 @@ A- Enable Mavlink:
 
 ![](images/image6.png)
 
-Figure (8) - Mavlink Service configuration Output
+Figure (8) - Mavlink Service Configuration Output
 
 B- Enable Px4 IMU
 
@@ -274,7 +274,7 @@ B- Enable Px4 IMU
 voxl-configure-px4-imu-server
 ```
 
-            Figure (9) below shows command output.
+            Figure (9) below shows the command output.
 
 ![](images/image8.png)
 
@@ -400,7 +400,27 @@ Then, we can source (. /opt/ros/melodic/setup.sh) in (.bashrc)
 apt-get install ros-melodic-mavros ros-melodic-mavros-extras ros-melodic-control-toolbox
 ```
 
-3.  Publish the topics:  
+3. Install GeographicLib dataset 
+```
+cd /opt/ros/melodic/lib/mavros 
+./install_geographiclib_datasets.sh
+```
+
+4. Clone the MAVROS Simple Examble - More details [here](https://docs.modalai.com/mavros/)
+```
+   cd /home
+git clone -b simple-example https://gitlab.com/voxl-public/support/mavros_test.git
+```
+
+5. Build the package
+```
+cd /home/mavros_test
+./build.sh
+```
+
+6. Change The IP address `ROS_IP` inside `ros_environment.sh` to the VOXL's IP.
+  
+7.   Publish the topics:  
     
 
 At this point, ROS is running in VOXL2, and we need to publish the topics from the VOXL2. We can run the following launch file:
@@ -408,7 +428,7 @@ At this point, ROS is running in VOXL2, and we need to publish the topics from t
 roslaunch voxl_mpa_to_ros voxl_mpa_to_ros.launch
 
 ```
-4.  Run the mavros:
+8.  Run the mavros:
 
         To run the MavRos, we can run the following script, in the following path:
 ```
