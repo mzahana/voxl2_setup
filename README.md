@@ -394,7 +394,13 @@ apt install -y ros-melodic-ros-base ros-melodic-image-transport
 ```
 Then, we can source (. /opt/ros/melodic/setup.sh) in (.bashrc)
 
-2.  Publish the topics:  
+2. Install the MAVROS package
+   
+```
+apt-get install ros-melodic-mavros ros-melodic-mavros-extras ros-melodic-control-toolbox
+```
+
+3.  Publish the topics:  
     
 
 At this point, ROS is running in VOXL2, and we need to publish the topics from the VOXL2. We can run the following launch file:
@@ -402,7 +408,7 @@ At this point, ROS is running in VOXL2, and we need to publish the topics from t
 roslaunch voxl_mpa_to_ros voxl_mpa_to_ros.launch
 
 ```
-3.  Run the mavros:
+4.  Run the mavros:
 
         To run the MavRos, we can run the following script, in the following path:
 ```
