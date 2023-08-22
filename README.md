@@ -389,6 +389,11 @@ In case the GPS is not connected to the QGC and VOXL.
 We can go to the directory `/etc/modalai/` and open `voxl-px4.config` and change the command from `qshell gps start -d 7 -b 115200` to `qshell gps start` 
 
 
+Fuse VIO Slam in QGC 
+====================
+
+We need to fuse VIO slam to PX4 through the QGC. To do so, We need to go to  QGC `parameters` - `EKF2_AID_MASK` and then set it up to `280` value 
+
 
 VOXL2 ROS & MavROS:
 ===================
