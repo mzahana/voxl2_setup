@@ -381,6 +381,15 @@ VOXL2 Calibration with QGC
 
 We can do the calibration through the QGC normally.
 
+GPS:
+=====
+
+In case the GPS is not connected to the QGC and VOXL.
+
+We can go to the directory `/etc/modalai/` and open `voxl-px4.config` and change the command from `qshell gps start -d 7 -b 115200` to `qshell gps start` 
+
+
+
 VOXL2 ROS & MavROS:
 ===================
 
